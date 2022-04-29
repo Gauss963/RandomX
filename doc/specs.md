@@ -101,8 +101,8 @@ The algorithm consists of the following steps:
 1. Scratchpad fingerprint is calculated as `A = AesHash1R(Scratchpad)`.
 1. Bytes 192-255 of the Register File are set to the value of `A`.
 1. Result is calculated as `R = Hash256(RegisterFile)`.
-
 The input of the `Hash512` function in step 9 is the following 256 bytes:
+![Imgur](https://i.imgur.com/8i5e6C9.jpeg)
 ```
  +---------------------------------+
  |         registers r0-r7         | (64 bytes)
